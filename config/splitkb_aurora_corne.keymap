@@ -41,6 +41,7 @@
       quick-tap-ms = <0>;
       flavor = "tap-preferred";
       bindings = <&kp>, <&kp>;
+      hold-trigger-key-positions = <8>;
     };
 
     td0: tap_dance_0 {
