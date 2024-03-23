@@ -126,6 +126,7 @@
 &none   /**/  &kp GRAVE   &kp TILDE   &kp LBKT   &kp RBKT    &none       /**/  &kp MINUS &kp EQUAL &kp LBKT        &kp RBKT &kp BSLH  /**/  &none
 &none   /**/  &kp LBKT    &kp RBKT    &kp LBRC   &kp RBRC    &kp MINUS   /**/  &kp UNDER &kp PLUS  &kp LBRC        &kp RBRC &kp PIPE  /**/  &none
                                                  &trans &mo FUNC &trans  /**/  &trans &trans &trans
+
       >;
     };
 
