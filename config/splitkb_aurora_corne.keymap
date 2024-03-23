@@ -19,6 +19,7 @@
 // MACROS
 #define SUPER LC(LSHIFT)
 #define SUPER2 LA(LC(LSHIFT))
+#define AS(keycode) &as LS(keycode) keycode     // Autoshift Macro
 
 // KEYS
 #define WRD_L LA(LEFT)
@@ -112,9 +113,9 @@
     num_layer {
       bindings = <
 
-&none   /**/  &kp STAR   &as(1)  &as(2)   &as(3)  &kp PLUS   /**/  &none  &none       &none      &none     &none     /**/  &none
-&none   /**/  &kp SLASH  &as(4)  &as(5)   &as(6)  &as(0)     /**/  &none  &kp LSHIFT  &kp LCTRL  &kp LALT  &kp LGUI  /**/  &none
-&none   /**/  &kp EQUAL  &as(7)  &as(8)   &as(9)  &kp MINUS  /**/  &none  &none       &none      &none     &none     /**/  &none
+&none   /**/  &kp STAR   &AS(1)  &AS(2)   &AS(3)  &kp PLUS   /**/  &none  &none       &none      &none     &none     /**/  &none
+&none   /**/  &kp SLASH  &AS(4)  &AS(5)   &AS(6)  &AS(0)     /**/  &none  &kp LSHIFT  &kp LCTRL  &kp LALT  &kp LGUI  /**/  &none
+&none   /**/  &kp EQUAL  &AS(7)  &AS(8)   &AS(9)  &kp MINUS  /**/  &none  &none       &none      &none     &none     /**/  &none
                                      &trans  &trans  &trans  /**/  &trans  &mo FUNC  &trans
       >;
     };
