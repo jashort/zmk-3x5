@@ -103,9 +103,9 @@
     num_layer {
       bindings = <
 
-&none   /**/  &kp STAR   &kp N1  &kp N2   &kp N3  &kp PLUS   /**/  &kp PG_UP  &kp WRD_L  &kp UP    &kp WRD_R  &none       /**/  &none
-&none   /**/  &kp SLASH  &kp N4  &kp N5   &kp N6  &kp N0     /**/  &kp PG_DN  &kp LEFT   &kp DOWN  &kp RIGHT  &kp SLASH   /**/  &none
-&none   /**/  &kp EQUAL  &kp N7  &kp N8   &kp N9  &kp MINUS  /**/  &kp UNDER  &kp HOME   &kp END   &kp C_SHOT &kp S_SHOT  /**/  &none
+&none   /**/  &kp STAR   &kp N1  &kp N2   &kp N3  &kp PLUS   /**/  &none  &none       &none      &none     &none     /**/  &none
+&none   /**/  &kp SLASH  &kp N4  &kp N5   &kp N6  &kp N0     /**/  &none  &kp LSHIFT  &kp LCTRL  &kp LALT  &kp LGUI  /**/  &none
+&none   /**/  &kp EQUAL  &kp N7  &kp N8   &kp N9  &kp MINUS  /**/  &none  &none       &none      &none     &none     /**/  &none
                                      &trans  &trans  &trans  /**/  &trans  &mo FUNC  &trans
 
       >;
@@ -135,9 +135,9 @@
 
     nav_layer {
       bindings = <
-&none   /**/  &none  &none  &none  &none  &none   /**/  &kp PG_UP  &kp WRD_L  &kp UP    &kp WRD_R  &none       /**/  &none
-&none   /**/  &none     &hm LALT S  &hm LCTRL D &hm LSHIFT F  &none     /**/  &kp PG_DN  &kp LEFT   &kp DOWN  &kp RIGHT  &kp SLASH   /**/  &none
-&none   /**/  &kp LBKT  &kp RBKT      &kp LBRC     &kp RBRC       &kp MINUS  /**/  &kp UNDER  &kp HOME   &kp END   &kp C_SHOT &kp S_SHOT  /**/  &none
+&none   /**/  &none     &none      &none       &none        &none      /**/  &kp PG_UP  &kp WRD_L  &kp UP    &kp WRD_R  &none       /**/  &none
+&none   /**/  &kp LGUI  &kp LALT   &kp LCTRL   &kp LSHIFT   &none      /**/  &kp PG_DN  &kp LEFT   &kp DOWN  &kp RIGHT  &kp SLASH   /**/  &none
+&none   /**/  &kp LBKT  &kp RBKT   &kp LBRC    &kp RBRC     &kp MINUS  /**/  &kp UNDER  &kp HOME   &kp END   &kp C_SHOT &kp S_SHOT  /**/  &none
         &trans  &mo FUNC  &trans  /**/  &trans  &mo FUNC  &trans
 
      >;
